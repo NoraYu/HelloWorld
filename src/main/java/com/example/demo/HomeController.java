@@ -10,9 +10,6 @@ public class HomeController {
     @RequestMapping("/")
     public String homepage () {
         return "index";
-
-
-
     }
 
 }
